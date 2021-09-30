@@ -13,7 +13,7 @@
       <pubDate>Tue, 28 Sep 2021 16:30:47 +0800</pubDate>
       
       <guid>https://wangshungde.github.io/blog/%E5%BD%B1%E5%83%8F%E8%BE%A8%E8%AD%98/</guid>
-      <description></description>
+      <description>深度學習實作YOLO:You Only Look Once 💪🏻實作  YOLOv3 搭配 MicrosoftCOCO物件偵測80分類，做為預設訓練資料集。 如何收集（取樣） ==標注==、==訓練資料==及進行最後的推論，就能顯得非常重要，辨識完整的工作流程：    資料來源： https://makerpro.</description>
     </item>
     
     <item>
