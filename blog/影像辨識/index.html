@@ -212,10 +212,18 @@
 </ol>
 <h3 id="轉換權重文件">📝轉換權重文件</h3>
 <ul>
-<li>由於此次使用的是<code>Keras框架</code>，所以須把下載到的YOLO預訓練權重值轉成Keras格式<code>(*.h5)</code>，執行<code>convert.py</code>即可轉換完成並置於<code>\model_data</code>下，其完整指令如下所示。</li>
+<li>由於此次使用的是 <code>Keras框架</code>，所以須把下載到的YOLO預訓練權重值轉成Keras格式<code>(*.h5)</code>，執行<code>convert.py</code>即可轉換完成並置於<code>\model_data</code>下，其完整指令如下所示。</li>
 </ul>
 <pre tabindex="0"><code class="language-cmake=" data-lang="cmake=">python convert.py -w yolov3.cfg yolov3.weights model_data/yolo_weights.h5
-</code></pre><!-- raw HTML omitted -->
+</code></pre><h3 id="執行模型訓練">執行模型訓練</h3>
+<ul>
+<li>執行<code>my_train.py</code>進行小番茄影像訓練，最終訓練完的結果會存放在<code>/logs/000/trained_weights_final.h5</code>，若不滿意結果想從這個結果繼續訓練，則可將此權重檔複製到<code>/model_d</code>下，再將第32列程式修改成<code>weights_path='model_data/trained_weights_final.h5'</code>即可
+<img src="https://i.imgur.com/F25EBQn.png" alt="">
+<img src="https://i.imgur.com/pZWeO0O.png" alt=""></li>
+</ul>
+<h3 id="影像推論-成果">影像推論-成果</h3>
+<p><img src="https://i.imgur.com/tWlVepk.png" alt=""></p>
+<!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
