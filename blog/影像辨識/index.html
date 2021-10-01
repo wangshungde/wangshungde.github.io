@@ -150,11 +150,15 @@
 <img src="https://i.imgur.com/KSigMUE.jpg" alt=""></p>
 <h2 id="實作">💪🏻實作</h2>
 <ul>
-<li>YOLOv3
-搭配 <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->MicrosoftCOCO<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->物件偵測80分類，做為預設訓練資料集。</li>
-<li>如何收集（取樣）
-==標注==、==訓練資料==及進行最後的推論，就能顯得非常重要，辨識完整的工作流程：
-<img src="https://i.imgur.com/TddLXRT.png" alt=""></li>
+<li>
+<p>YOLOv3
+搭配 <code>MicrosoftCOCO</code>物件偵測80分類，做為預設訓練資料集。</p>
+</li>
+<li>
+<p>如何收集（取樣）
+<code>標註</code> 、<code>訓練資料</code>及進行最後的推論，就能顯得非常重要，辨識完整的工作流程：
+<img src="https://i.imgur.com/TddLXRT.png" alt=""></p>
+</li>
 </ul>
 <blockquote>
 <p>資料來源：
@@ -168,17 +172,51 @@
 <img src="https://i.imgur.com/WQd6P9P.png" alt=""></p>
 </li>
 <li>
-<p>或利用==LabelImg==透過現成的照片進行標記
+<p>或利用<code>LabelImg</code>透過現成的照片進行標記
 <img src="https://i.imgur.com/ruShybE.png" alt=""></p>
 </li>
 </ul>
 <blockquote>
 <p>資料來源: <a href="https://makerpro.cc/2019/12/train-your-dataset-with-yolov3/">https://makerpro.cc/2019/12/train-your-dataset-with-yolov3/</a></p>
 </blockquote>
+<h3 id="標註資料集">🏷標註資料集</h3>
 <ul>
-<li>🏷標註資料集</li>
+<li>建立檔案分配資料夾
+<img src="https://i.imgur.com/ZLmX3Vf.png" alt="">
+分配資料集大小，包括<code>訓練集(train.txt)</code>、<code>驗證集(val.txt)</code>、<code>測試集(test.txt)</code>及<code>訓練加驗證集(trainval.txt)</code>。</li>
 </ul>
-<!-- raw HTML omitted -->
+<p><img src="https://i.imgur.com/6EgGzKK.png" alt=""></p>
+<ul>
+<li>路徑在<code>VOC2007/ImageSets/Main</code>下，而各資料集清單檔<code>(*.txt)</code>即為不含附檔名的影像名稱清單</li>
+</ul>
+<h3 id="訓練資料集">📝訓練資料集</h3>
+<ul>
+<li>一般要訓練YOLOv3可選擇使用原始的<code>DarkNet</code>方式或是使用常見的<code>AI框架</code></li>
+<li>本實作參考GitHub上<a href="https://github.com/qqwweee/keras-yolo3">qqwweee</a>已Keras框架為基礎完成
+<img src="https://i.imgur.com/pTN1Jv0.png" alt=""></li>
+<li>資料集格式轉換</li>
+</ul>
+<ol>
+<li>VOC2007格式所產生的標註檔<code>(.xml)</code>內容主要表示物件匡德方式為左上<code>(xmin、ymin)</code>即右下<code>(xmax、ymax)</code>座標，和YOLO格式不同，所以要依資料集清單檔<code>(.txt)</code>，將個別標註檔<code>(*.xml)</code>轉換成物件編號加上物件框中心座標及尺寸格式後再寫至另一個清單檔。</li>
+</ol>
+<pre tabindex="0"><code class="language-cmake=" data-lang="cmake=">python voc_annotation.py
+</code></pre><h3 id="環境安裝">📝環境安裝</h3>
+<ul>
+<li>虛擬環境Anaconda
+在Anaconda下安裝需要的軟件</li>
+</ul>
+<ol>
+<li>Keras</li>
+<li>Pillow(conda install pillow)</li>
+<li>YOLOv3官網預先訓練好的權重文件<code>yolov3.weights</code>
+<img src="https://i.imgur.com/Bps0Yva.png" alt=""></li>
+</ol>
+<h3 id="轉換權重文件">📝轉換權重文件</h3>
+<ul>
+<li>由於此次使用的是<code>Keras框架</code>，所以須把下載到的YOLO預訓練權重值轉成Keras格式<code>(*.h5)</code>，執行<code>convert.py</code>即可轉換完成並置於<code>\model_data</code>下，其完整指令如下所示。</li>
+</ul>
+<pre tabindex="0"><code class="language-cmake=" data-lang="cmake=">python convert.py -w yolov3.cfg yolov3.weights model_data/yolo_weights.h5
+</code></pre><!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
