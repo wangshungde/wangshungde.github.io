@@ -1,0 +1,153 @@
+@charset "UTF-8";
+* {
+  position: relative;
+}
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.maxwidth {
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  height: 300px;
+  background-color: #ffb336;
+}
+.header .icon {
+  width: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.content {
+  font-family: "Ubuntu", 微軟正黑體;
+  padding: 20px;
+}
+.content h5 {
+  margin-top: 10px;
+}
+.content h1 {
+  font-size: 40px;
+}
+.content .title_br {
+  border: solid 2px #ffb336;
+  width: 100px;
+}
+.content h2 {
+  font-size: 30px;
+}
+.content h3 {
+  font-size: 20px;
+}
+.content h1.smell_english {
+  font-size: 24px;
+}
+.content h2.smell_english {
+  font-size: 16px;
+}
+.content h3.smell_english {
+  font-size: 12px;
+}
+.content .smell_english {
+  margin-top: -15px;
+}
+.content .button {
+  padding: 5px 25px;
+  margin-right: 10px;
+  display: inline-block;
+  letter-spacing: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  border: solid 2px #27232f;
+}
+.content .button_blue {
+  background-color: #27232f;
+  color: #f3f7f7;
+  font-weight: 500;
+}
+.content .button_yellow {
+  background-color: #ffb336;
+  color: #27232f;
+}
+.content .color_chip {
+  display: inline-block;
+  margin-right: 20px;
+}
+.content .color_chip .color_block,
+.content .color_chip .color_tag {
+  display: inline-block;
+  vertical-align: middle;
+}
+.content .color_chip .color_tag {
+  width: 60px;
+}
+.content .color_chip .color_block {
+  width: 35px;
+  height: 35px;
+  border: solid 2px white;
+}
+.content .color_chip .color_block_yellow {
+  background-color: #ffb336;
+}
+.content .color_chip .color_block_blue {
+  background-color: #27232f;
+}
+.content .color_chip .color_block_white {
+  background-color: #f3f7f7;
+}
+.content .color_chip .color_block_grey {
+  background-color: #333;
+}
+
+.content_grey {
+  background-color: #333;
+  color: #f3f7f7;
+}
+.content_grey .smell_english {
+  color: #ffb336;
+}
+.content_grey h1,
+.content_grey h2,
+.content_grey h3 {
+  font-weight: 300;
+}
+.content_grey .button {
+  border-color: #f3f7f7;
+}
+
+.content_blue {
+  background-color: #27232f;
+  color: #f3f7f7;
+}
+.content_blue .smell_english {
+  color: #ffb336;
+}
+.content_blue h1,
+.content_blue h2,
+.content_blue h3 {
+  font-weight: 300;
+}
+.content_blue .button {
+  border-color: #f3f7f7;
+}
+
+.content_white {
+  background-color: #f3f7f7;
+  color: #27232f;
+}
+.content_white .smell_english {
+  color: #27232f;
+}
+.content_white h1,
+.content_white h2,
+.content_white h3 {
+  font-weight: 300;
+}
