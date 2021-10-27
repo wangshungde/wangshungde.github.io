@@ -1,0 +1,120 @@
+$color_yellow: #ffb336
+$color_blue: #27232F
+$color_white: #f3f7f7
+$color_grey: #333
+
+$font_base_size: 10px
+$mix_content_width: 768px
+*
+  // border: solid 1px
+  position: relative
+@mixin size($w,$h)
+  width: $w
+  height: $h
+  
+html,body
+  padding: 0px
+  margin: 0px
+  
+.maxwidth
+  max-width: $mix_content_width
+  margin-left: auto
+  margin-right: auto 
+.header
+  height: 300px
+  background-color: $color_yellow
+  & .icon
+    width: 300px
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translateX(-50%) translateY(-50%)
+.content
+  font-family: 'Ubuntu',微軟正黑體
+  padding: 20px
+  & h5
+    margin-top: 10px
+  & h1
+      font-size:$font_base_size*4
+  & .title_br
+    border: solid 2px $color_yellow  
+    width: 100px
+  & h2
+      font-size:$font_base_size*3
+  & h3
+      font-size:$font_base_size*2
+      
+  & h1.smell_english
+      font-size: $font_base_size*2.4
+  & h2.smell_english
+      font-size: $font_base_size*1.6
+  & h3.smell_english
+      font-size: $font_base_size*1.2 
+  & .smell_english
+      margin-top: -15px
+  & .button
+      padding: 5px 25px
+      margin-right: 10px
+      display: inline-block
+      letter-spacing: 10px
+      font-size: $font_base_size*1.5
+      font-weight: 500
+      border: solid 2px $color_blue
+  & .button_blue
+      background-color: $color_blue
+      color: $color_white
+      font-weight: 500
+  & .button_yellow
+      background-color: $color_yellow
+      color: $color_blue
+  & .color_chip
+    display: inline-block
+    margin-right: 20px
+    & .color_block,& .color_tag
+      display: inline-block
+      vertical-align: middle
+    & .color_tag
+        width: 60px
+    & .color_block
+        +size(35px,35px)
+        border: solid 2px white
+    & .color_block_yellow
+        background-color: $color_yellow
+    & .color_block_blue
+        background-color: $color_blue
+    & .color_block_white
+        background-color: $color_white
+        
+    & .color_block_grey
+        background-color: $color_grey    
+.content_grey
+  background-color: $color_grey
+  color: $color_white
+  & .smell_english
+    color: $color_yellow
+  & h1,& h2,& h3
+    font-weight: 300
+  & .button
+    border-color: $color_white
+.content_blue
+  background-color: $color_blue
+  color: $color_white
+  & .smell_english
+    color: $color_yellow
+  & h1,& h2,& h3
+    font-weight: 300
+  & .button
+    border-color: $color_white  
+.content_white
+  background-color: $color_white
+  color: $color_blue
+  & .smell_english
+    color: $color_blue
+  & h1,& h2,& h3
+    font-weight: 300
+
+   
+ 
+    
+    
+

@@ -40,6 +40,9 @@ body {
 .content .title_br {
   border: solid 2px #ffb336;
   width: 100px;
+  right: 10px;
+  opacity: 0;
+  transition-duration: 0.7s;
 }
 .content h2 {
   font-size: 30px;
@@ -49,12 +52,21 @@ body {
 }
 .content h1.smell_english {
   font-size: 24px;
+  opacity: 0;
+  transition-duration: 0.7s;
+  top: 0px;
 }
 .content h2.smell_english {
   font-size: 16px;
+  opacity: 0;
+  transition-duration: 0.7s;
+  top: 0px;
 }
 .content h3.smell_english {
   font-size: 12px;
+  opacity: 0;
+  transition-duration: 0.7s;
+  top: 0px;
 }
 .content .smell_english {
   margin-top: -15px;
@@ -96,6 +108,9 @@ body {
 }
 .content .color_chip .color_block_yellow {
   background-color: #ffb336;
+}
+.content .color_chip:hover .color_tag {
+  opacity: 1;
 }
 .content .color_chip .color_block_blue {
   background-color: #27232f;
@@ -150,4 +165,30 @@ body {
 .content_white h2,
 .content_white h3 {
   font-weight: 300;
+}
+
+.content:hover .title_br {
+  opacity: 1;
+  transition-duration: 0.3s;
+  right: 0px;
+}
+
+.content:hover h1.smell_english {
+  opacity: 1;
+  transition-duration: 0.3s;
+  top: 10px;
+}
+
+.content:hover h2.smell_english {
+  opacity: 1;
+  transition-duration: 0.3s;
+  transition-delay: 0.5s;
+  top: 10px;
+}
+
+.content:hover h3.smell_english {
+  opacity: 1;
+  transition-duration: 0.3s;
+  transition-delay: 1s;
+  top: 10px;
 }
