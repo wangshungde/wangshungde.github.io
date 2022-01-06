@@ -2,72 +2,75 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://wangshungde.github.io/blog/</loc>
+    <loc>https://wangshungte.github.io/blog/</loc>
     <lastmod>2021-09-28T16:30:47+08:00</lastmod>
   </url><url>
-    <loc>https://wangshungde.github.io/categories/</loc>
+    <loc>https://wangshungte.github.io/categories/</loc>
     <lastmod>2021-09-28T16:30:47+08:00</lastmod>
   </url><url>
-    <loc>https://wangshungde.github.io/tags/darknet/</loc>
+    <loc>https://wangshungte.github.io/tags/darknet/</loc>
     <lastmod>2021-09-28T16:30:47+08:00</lastmod>
   </url><url>
-    <loc>https://wangshungde.github.io/</loc>
+    <loc>https://wangshungte.github.io/</loc>
     <lastmod>2021-09-28T16:30:47+08:00</lastmod>
   </url><url>
-    <loc>https://wangshungde.github.io/tags/keras/</loc>
+    <loc>https://wangshungte.github.io/tags/keras/</loc>
     <lastmod>2021-09-28T16:30:47+08:00</lastmod>
   </url><url>
-    <loc>https://wangshungde.github.io/tags/opencv/</loc>
+    <loc>https://wangshungte.github.io/tags/opencv/</loc>
     <lastmod>2021-09-28T16:30:47+08:00</lastmod>
   </url><url>
-    <loc>https://wangshungde.github.io/tags/python/</loc>
+    <loc>https://wangshungte.github.io/tags/python/</loc>
     <lastmod>2021-09-28T16:30:47+08:00</lastmod>
   </url><url>
-    <loc>https://wangshungde.github.io/tags/</loc>
+    <loc>https://wangshungte.github.io/tags/</loc>
     <lastmod>2021-09-28T16:30:47+08:00</lastmod>
   </url><url>
-    <loc>https://wangshungde.github.io/tags/tensorflow/</loc>
+    <loc>https://wangshungte.github.io/tags/tensorflow/</loc>
     <lastmod>2021-09-28T16:30:47+08:00</lastmod>
   </url><url>
-    <loc>https://wangshungde.github.io/tags/yolo/</loc>
+    <loc>https://wangshungte.github.io/tags/yolo/</loc>
     <lastmod>2021-09-28T16:30:47+08:00</lastmod>
   </url><url>
-    <loc>https://wangshungde.github.io/categories/%E5%BD%B1%E5%83%8F%E8%BE%A8%E8%AD%98/</loc>
+    <loc>https://wangshungte.github.io/categories/%E5%BD%B1%E5%83%8F%E8%BE%A8%E8%AD%98/</loc>
     <lastmod>2021-09-28T16:30:47+08:00</lastmod>
   </url><url>
-    <loc>https://wangshungde.github.io/blog/%E5%BD%B1%E5%83%8F%E8%BE%A8%E8%AD%98/</loc>
+    <loc>https://wangshungte.github.io/blog/%E5%BD%B1%E5%83%8F%E8%BE%A8%E8%AD%98/</loc>
     <lastmod>2021-09-28T16:30:47+08:00</lastmod>
   </url><url>
-    <loc>https://wangshungde.github.io/tags/fred/</loc>
+    <loc>https://wangshungte.github.io/tags/fred/</loc>
     <lastmod>2021-09-07T16:30:47+08:00</lastmod>
   </url><url>
-    <loc>https://wangshungde.github.io/tags/good/</loc>
+    <loc>https://wangshungte.github.io/tags/good/</loc>
     <lastmod>2021-09-07T16:30:47+08:00</lastmod>
   </url><url>
-    <loc>https://wangshungde.github.io/categories/%E5%BF%83%E5%BE%97/</loc>
+    <loc>https://wangshungte.github.io/categories/%E5%BF%83%E5%BE%97/</loc>
     <lastmod>2021-09-07T16:30:47+08:00</lastmod>
   </url><url>
-    <loc>https://wangshungde.github.io/blog/%E9%98%BF%E5%BE%B7%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
+    <loc>https://wangshungte.github.io/blog/%E9%98%BF%E5%BE%B7%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
     <lastmod>2021-09-07T16:30:47+08:00</lastmod>
   </url><url>
-    <loc>https://wangshungde.github.io/about/</loc>
+    <loc>https://wangshungte.github.io/about/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
   </url><url>
-    <loc>https://wangshungde.github.io/contact/</loc>
+    <loc>https://wangshungte.github.io/contact/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
   </url><url>
-    <loc>https://wangshungde.github.io/search/</loc>
+    <loc>https://wangshungte.github.io/search/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
   </url><url>
-    <loc>https://wangshungde.github.io/categories/go-language/</loc>
+    <loc>https://wangshungte.github.io/categories/go-language/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url><url>
-    <loc>https://wangshungde.github.io/blog/post-13/</loc>
+    <loc>https://wangshungte.github.io/blog/post-13/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url><url>
-    <loc>https://wangshungde.github.io/tags/html/</loc>
+    <loc>https://wangshungte.github.io/tags/html/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url><url>
-    <loc>https://wangshungde.github.io/blog/test2/</loc>
+    <loc>https://wangshungte.github.io/blog/test2/</loc>
+  </url><url>
+    <loc>https://wangshungte.github.io/test/</loc>
+    <priority>0</priority>
   </url>
 </urlset>

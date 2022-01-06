@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>OpenCV on Fred test</title>
-    <link>https://wangshungde.github.io/tags/opencv/</link>
+    <link>https://wangshungte.github.io/tags/opencv/</link>
     <description>Recent content in OpenCV on Fred test</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 28 Sep 2021 16:30:47 +0800</lastBuildDate><atom:link href="https://wangshungde.github.io/tags/opencv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Sep 2021 16:30:47 +0800</lastBuildDate><atom:link href="https://wangshungte.github.io/tags/opencv/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>阿德的影像辨識</title>
-      <link>https://wangshungde.github.io/blog/%E5%BD%B1%E5%83%8F%E8%BE%A8%E8%AD%98/</link>
+      <link>https://wangshungte.github.io/blog/%E5%BD%B1%E5%83%8F%E8%BE%A8%E8%AD%98/</link>
       <pubDate>Tue, 28 Sep 2021 16:30:47 +0800</pubDate>
       
-      <guid>https://wangshungde.github.io/blog/%E5%BD%B1%E5%83%8F%E8%BE%A8%E8%AD%98/</guid>
+      <guid>https://wangshungte.github.io/blog/%E5%BD%B1%E5%83%8F%E8%BE%A8%E8%AD%98/</guid>
       <description>深度學習實作YOLO:You Only Look Once 💪🏻實作   YOLOv3 搭配 MicrosoftCOCO物件偵測80分類，做為預設訓練資料集。</description>
     </item>
     
